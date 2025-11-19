@@ -43,8 +43,6 @@ from kazoo.protocol.serialization import (
     SetData,
     Sync,
     Transaction,
-    AddWatchMode,
-    WatcherType
 )
 from kazoo.protocol.states import (
     Callback,
@@ -52,6 +50,8 @@ from kazoo.protocol.states import (
     KazooState,
     KeeperState,
     WatchedEvent,
+    AddWatchMode,
+    WatcherType
 )
 from kazoo.retry import KazooRetry
 from kazoo.security import ACL, OPEN_ACL_UNSAFE
