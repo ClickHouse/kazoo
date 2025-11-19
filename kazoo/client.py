@@ -39,7 +39,7 @@ from kazoo.protocol.serialization import (
     SetACL,
     GetData,
     Reconfig,
-    RemoveWathces,
+    RemoveWatches,
     SetData,
     Sync,
     Transaction,
